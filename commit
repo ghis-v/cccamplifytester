@@ -1,0 +1,13 @@
+if [%1]==[] goto loop_end
+
+git add .
+git commit -m %1
+git push origin master
+
+goto end
+
+:error_no_description
+echo description manquante !
+goto end
+
+:end

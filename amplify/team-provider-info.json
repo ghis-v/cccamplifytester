@@ -10,6 +10,11 @@
       "StackName": "amplify-cccamplifytester-dev-173546",
       "StackId": "arn:aws:cloudformation:eu-west-1:118423247426:stack/amplify-cccamplifytester-dev-173546/497a6790-6187-11eb-a21b-02a9f14a1291",
       "AmplifyAppId": "djt0w6kkd0rno"
+    },
+    "categories": {
+      "auth": {
+        "cccamplifytester041c46dd": {}
+      }
     }
   }
 }
