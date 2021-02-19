@@ -66,7 +66,7 @@ function App() {
 	return (	
 		<div className="App">
 		
-			<Button variant="contained" color="primary" onClick={onClick}>{I18n.get('Hello World')}</Button> 
+			<Button variant="contained" color="primary" onClick={onClick}>{I18n.get('Hello Mars')}</Button>
 			<AmplifySignOut />
 		  
 			<Snackbar open={opened} autoHideDuration={6000} onClose={handleClose}>

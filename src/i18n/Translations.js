@@ -1,5 +1,6 @@
 const fr = {
-	"Hello World":"Bonjour le monde"
+	"Hello World":"Bonjour le monde",
+	"Hello Mars":"Bonjour Mars"
 };
 
 const en = {
