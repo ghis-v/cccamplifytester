@@ -1,0 +1,21 @@
+﻿schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Mutation {
+  createNode(name: String!, parentid: Int!, role: Int!): Node
+}
+
+type Node {
+  id: Int!
+  name: String!
+  parentid: Int
+  role: Int!
+}
+
+type Query {
+  getChildrenNodes(id: ID!): [Node]
+  getNode(id: Int!): Node
+  getRootNodes: [Node]
+}
