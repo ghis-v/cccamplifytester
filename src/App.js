@@ -39,7 +39,9 @@ Amplify.configure(awsConfiguration);
 Hub.listen('auth', authListener);	
 
 
+// application
 function App() {
+
 	
 	I18n.putVocabularies(translations);
 	I18n.setLanguage('en');
@@ -65,10 +67,10 @@ function App() {
 	
 	return (	
 		<div className="App">
-		
+
 			<Button variant="contained" color="primary" onClick={onClick}>{I18n.get('Hello Mars')}</Button>
 			<AmplifySignOut />
-		  
+
 			<Snackbar open={opened} autoHideDuration={6000} onClose={handleClose}>
 			  <Alert onClose={handleClose}  severity="success">
 				This is a success message!
